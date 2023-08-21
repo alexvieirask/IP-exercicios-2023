@@ -1,7 +1,8 @@
 import java.util.Scanner;
-
-//Descreva um programa que calcule o volume de uma lata de óleo. Fórmula:
-//normalsize&space;volume:=:\Pi::raio^2::altura
+/*
+Descreva um programa que calcule o volume de uma lata de óleo. Fórmula:
+normalsize&space;volume:=:\Pi::raio^2::altura
+*/
 
 public class Uni3Exe09 {
     public static void main(String[] args) throws Exception {
