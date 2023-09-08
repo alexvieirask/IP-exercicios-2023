@@ -23,7 +23,6 @@ public class Uni4Exe07 {
         }
 
         System.out.println("Custo do selo: "+ df.format(valorPagar));
-
         input.close();
     }
 }
