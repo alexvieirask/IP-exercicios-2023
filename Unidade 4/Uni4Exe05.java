@@ -1,19 +1,26 @@
+/*
+Dada uma pergunta, “a cor é azul?”, faça um programa que leia uma variável 
+lógica com a resposta e responda “Sim”, caso a resposta seja true, ou “Não”, 
+caso seja false.
+Para resolver este problema pode se utilizar do algoritmo descrito no fluxograma:
+*/
+
 import java.util.Scanner;
 
-public class Uni4Exe04 {
+public class Uni4Exe05 {
     public static void main(String[] args) throws Exception {
         Scanner input = new Scanner(System.in);
-        float numero;
+        String resposta;
+        
+        System.out.print("A cor é azul?");
+        resposta = input.next();
 
-        System.out.print("Digite o número: ");
-        numero = input.nextFloat();
-
-        if (numero % 2 != 0.00){
-            System.out.println("O número que você digitou possuí casas decimais informadas.");
-        } else{
-            System.out.println("O número que você digitou não possuí casas decimais informadas.");
+        if (resposta.toUpperCase() =="SIM"){
+            System.out.println("Sim");
+        } 
+        else{
+           System.out.println("Não"); 
         }
-
         input.close();
     }
 }

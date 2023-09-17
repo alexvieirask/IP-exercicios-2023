@@ -1,3 +1,8 @@
+/*
+Dado uma letra, escreva um algoritmo que informe se ela é ou não uma vogal.
+Para resolver este problema pode se utilizar do algoritmo descrito no fluxograma:
+*/
+
 import java.util.Scanner;
 
 public class Uni4Exe08 {
@@ -12,10 +17,10 @@ public class Uni4Exe08 {
 
         if (letra == 'A' || letra == 'E' || letra == 'I' || letra == 'O' || letra == 'U' ){
             System.out.println("É vogal");
-        } else{
+        } 
+        else{
             System.out.println("NÃO é vogal");
         }
-
 
         input.close();
     }

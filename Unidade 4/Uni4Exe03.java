@@ -1,3 +1,7 @@
+/*
+Dados dois números inteiros descreva um algoritmo para informar o maior valor entre eles.
+*/
+
 import java.util.Scanner;
 
 public class Uni4Exe03 {
@@ -13,18 +17,12 @@ public class Uni4Exe03 {
 
         if(numeroUm > numeroDois){
             maiorNumero = numeroUm;
-        } else{
+        }
+        else{
             maiorNumero = numeroDois;
         }
 
         System.out.println("O maior número é: "+maiorNumero);
-
-
-
-
-
-        
-
 
         input.close();
     }

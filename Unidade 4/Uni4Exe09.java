@@ -1,3 +1,7 @@
+/*
+Dados dois valores inteiros, escreva um algoritmo que informe se eles são múltiplos ou não.
+*/
+
 import java.util.Scanner;
 
 public class Uni4Exe09 {
@@ -13,10 +17,10 @@ public class Uni4Exe09 {
 
         if (numeroUm % numeroDois == 0){
             System.out.println("O número "+numeroUm+" é múltiplo de "+numeroDois);
-        } else{
+        } 
+        else{
             System.out.println("O número "+numeroUm+" não é múltiplo de "+numeroDois);
         }
-
         
         input.close();
     }
