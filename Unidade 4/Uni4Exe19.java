@@ -9,40 +9,20 @@ Dadas as coordenadas (X e Y) de um Ponto, você deve informar em qual quadrante 
 Para resolver este problema pode se utilizar do algoritmo descrito no fluxograma:
 */
 
-import java.util.Scanner;
-
 public class Uni4Exe19{
     public static void main(String[] args) throws Exception {
-        Scanner input = new Scanner(System.in);
-       
-        double X,Y;
-
-        System.out.print("x = ");
-        X = input.nextDouble();
-
-        System.out.print("y = ");
-        Y = input.nextDouble();
-
-        if (X == 0 && Y == 0){
-            System.out.println("Quadrante 0");
-        } 
-       
-        if (X > 0 && Y > 0){
-            System.out.println("Quadrante 1");
-        } 
-          
-        if (X > 0 && Y<0){
-            System.out.println("Quadrante 2");
-        } 
-        
-        if (X < 0 && Y < 0){
-            System.out.println("Quadrante 3");
-        } 
-        
-        if(X<0 && Y > 0){
-            System.out.println("Quadrante 4");   
+        int a, b, c;
+        a = 0;
+        b = 15;
+        c = 0;
+        while (a <= b) {
+               a = a + 3;
+               b = b - a;
+               c = b - a;
         }
 
-        input.close();
-    }
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+}
 }
